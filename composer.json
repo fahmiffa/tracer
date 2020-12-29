@@ -1,0 +1,9 @@
+{
+    "name": "trancer/ffa",
+    "description": "tracer app",
+    "type": "project",
+    "license": "GPL",
+    "require": {
+        "mpdf/mpdf": "^8.0"
+    }
+}

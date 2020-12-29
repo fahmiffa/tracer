@@ -1,0 +1,362 @@
+CRITICAL - 2020-12-04 20:50:48 --> Too few arguments to function App\Models\Mdata::ud(), 2 passed in D:\laragon\www\bkk\app\Controllers\Home.php on line 28 and exactly 3 expected
+#0 D:\laragon\www\bkk\app\Controllers\Home.php(28): App\Models\Mdata->ud(Array, 'tb_al')
+#1 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#2 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-04 22:17:39 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nis', 'NIS', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:17:40 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nis', 'NIS', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:17:41 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nis', 'NIS', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:18:22 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nis', 'NIS', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:18:23 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nis', 'NIS', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:19:12 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nis', 'NIS', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:20:21 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nam', 'Nama', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:20:22 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nam', 'Nama', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:20:22 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nam', 'Nama', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:20:22 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nam', 'Nama', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:20:22 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nam', 'Nama', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:20:23 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nam', 'Nama', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:20:28 --> Argument 1 passed to App\Validation\MyRules::nis() must be of the type string, null given, called in D:\laragon\www\bkk\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(294): App\Validation\MyRules->nis(NULL, NULL)
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('nam', 'Nama', NULL, Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:21:34 --> xss_clean bukan sebuah aturan yang valid.
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('xss_clean')
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('key', 'Field', '', Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(219): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:21:53 --> xss_clean bukan sebuah aturan yang valid.
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('xss_clean')
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('key', 'Field', '', Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(219): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:21:54 --> xss_clean bukan sebuah aturan yang valid.
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('xss_clean')
+#1 D:\laragon\www\bkk\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('key', 'Field', '', Array, Array)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(219): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 22:44:15 --> error_temp bukan sebuah template Validasi yang valid.
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(539): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('error_temp')
+#1 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->showError('key', 'error_temp')
+#2 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 22:44:16 --> error_temp bukan sebuah template Validasi yang valid.
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(539): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('error_temp')
+#1 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->showError('key', 'error_temp')
+#2 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 22:44:49 --> err_temp bukan sebuah template Validasi yang valid.
+#0 D:\laragon\www\bkk\system\Validation\Validation.php(539): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('err_temp')
+#1 D:\laragon\www\bkk\app\Controllers\Home.php(221): CodeIgniter\Validation\Validation->showError('key', 'err_temp')
+#2 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-04 23:16:05 --> Unknown column 'tb_al.id' in 'where clause'
+#0 D:\laragon\www\bkk\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\bkk\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\bkk\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\bkk\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\bkk\system\Model.php(381): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\bkk\app\Models\Mdata.php(23): CodeIgniter\Model->find('11201')
+#6 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#7 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#8 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-04 23:17:31 --> Unknown column 'tb_al.id' in 'where clause'
+#0 D:\laragon\www\bkk\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\bkk\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\bkk\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\bkk\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\bkk\system\Model.php(381): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\bkk\app\Models\Mdata.php(23): CodeIgniter\Model->find('11201')
+#6 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#7 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#8 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-04 23:18:00 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(24): CodeIgniter\Model->find('11201')
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:18:35 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 447
+#0 D:\laragon\www\bkk\system\Model.php(447): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(22): CodeIgniter\Model->findAll()
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:18:36 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 447
+#0 D:\laragon\www\bkk\system\Model.php(447): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(22): CodeIgniter\Model->findAll()
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:19:03 --> syntax error, unexpected '}'
+#0 D:\laragon\www\bkk\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\bkk\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-04 23:19:10 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getResult() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 447
+#0 D:\laragon\www\bkk\system\Model.php(447): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(22): CodeIgniter\Model->findAll()
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:19:31 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(24): CodeIgniter\Model->find(11201)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil(11201)
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:20:36 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(26): CodeIgniter\Model->find(11201)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil(11201)
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:20:37 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(26): CodeIgniter\Model->find(11201)
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil(11201)
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:21:12 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(26): CodeIgniter\Model->find('11201')
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:22:29 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(26): CodeIgniter\Model->find('11201')
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:22:31 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(26): CodeIgniter\Model->find('11201')
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:22:32 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(26): CodeIgniter\Model->find('11201')
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:22:32 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(26): CodeIgniter\Model->find('11201')
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:22:48 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(26): CodeIgniter\Model->find('11201')
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:22:49 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(26): CodeIgniter\Model->find('11201')
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:22:49 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(26): CodeIgniter\Model->find('11201')
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:24:28 --> Argument 1 passed to CodeIgniter\Database\BaseResult::getFirstRow() must be of the type string, null given, called in D:\laragon\www\bkk\system\Model.php on line 383
+#0 D:\laragon\www\bkk\system\Model.php(383): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\laragon\www\bkk\app\Models\Mdata.php(26): CodeIgniter\Model->find('11201')
+#2 D:\laragon\www\bkk\app\Controllers\Home.php(29): App\Models\Mdata->ambil('11201')
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-04 23:29:54 --> Use of undefined constant key - assumed 'key' (this will throw an Error in a future version of PHP)
+#0 D:\laragon\www\bkk\app\Controllers\Home.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\laragon\\www\\...', 222, Array)
+#1 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#2 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

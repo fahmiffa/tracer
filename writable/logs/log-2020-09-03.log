@@ -1,0 +1,531 @@
+CRITICAL - 2020-09-03 00:11:20 --> even bukan sebuah aturan yang valid.
+#0 D:\laragon\www\app\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('even')
+#1 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', '', Array, Array)
+#2 D:\laragon\www\app\app\Controllers\Dashboard.php(314): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#4 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-03 00:14:24 --> Table 'invoice.table' doesn't exist
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\laragon\www\app\system\Validation\Rules.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\system\Validation\Validation.php(294): CodeIgniter\Validation\Rules->is_not_unique('fafa', 'field', Array, NULL)
+#6 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', 'fafa', Array, Array)
+#7 D:\laragon\www\app\app\Controllers\Dashboard.php(314): CodeIgniter\Validation\Validation->run()
+#8 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#9 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-03 00:14:30 --> Table 'invoice.table' doesn't exist
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\laragon\www\app\system\Validation\Rules.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\system\Validation\Validation.php(294): CodeIgniter\Validation\Rules->is_not_unique('fafa', 'field', Array, NULL)
+#6 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', 'fafa', Array, Array)
+#7 D:\laragon\www\app\app\Controllers\Dashboard.php(314): CodeIgniter\Validation\Validation->run()
+#8 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#9 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-03 00:18:39 --> Unknown column 'where_un' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\laragon\www\app\system\Validation\Rules.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\system\Validation\Validation.php(294): CodeIgniter\Validation\Rules->is_not_unique('fafa', 'bil_uniq', Array, NULL)
+#6 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', 'fafa', Array, Array)
+#7 D:\laragon\www\app\app\Controllers\Dashboard.php(314): CodeIgniter\Validation\Validation->run()
+#8 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#9 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-03 00:18:51 --> Unknown column 'where_un' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\laragon\www\app\system\Validation\Rules.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\system\Validation\Validation.php(294): CodeIgniter\Validation\Rules->is_not_unique('fafa', 'bil_uniq', Array, NULL)
+#6 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', 'fafa', Array, Array)
+#7 D:\laragon\www\app\app\Controllers\Dashboard.php(314): CodeIgniter\Validation\Validation->run()
+#8 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#9 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-03 00:19:18 --> Unknown column 'where_bil_un' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\laragon\www\app\system\Validation\Rules.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\system\Validation\Validation.php(294): CodeIgniter\Validation\Rules->is_not_unique('fafa', 'bil_uniq', Array, NULL)
+#6 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', 'fafa', Array, Array)
+#7 D:\laragon\www\app\app\Controllers\Dashboard.php(314): CodeIgniter\Validation\Validation->run()
+#8 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#9 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-03 00:25:40 --> Unknown column 'bayar' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\laragon\www\app\system\Validation\Rules.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\system\Validation\Validation.php(294): CodeIgniter\Validation\Rules->is_not_unique('928', 'bayar', Array, NULL)
+#6 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', '928', Array, Array)
+#7 D:\laragon\www\app\app\Controllers\Dashboard.php(314): CodeIgniter\Validation\Validation->run()
+#8 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#9 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-03 00:25:41 --> Unknown column 'bayar' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT 1\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\laragon\www\app\system\Validation\Rules.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\system\Validation\Validation.php(294): CodeIgniter\Validation\Rules->is_not_unique('928', 'bayar', Array, NULL)
+#6 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', '928', Array, Array)
+#7 D:\laragon\www\app\app\Controllers\Dashboard.php(314): CodeIgniter\Validation\Validation->run()
+#8 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#9 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-03 00:55:41 --> Call to a member function run() on boolean
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-03 01:07:07 --> myrule bukan sebuah aturan yang valid.
+#0 D:\laragon\www\app\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('myrule')
+#1 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', '', Array, Array)
+#2 D:\laragon\www\app\app\Controllers\Dashboard.php(310): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#4 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-03 01:07:42 --> myrule bukan sebuah aturan yang valid.
+#0 D:\laragon\www\app\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('myrule')
+#1 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', '', Array, Array)
+#2 D:\laragon\www\app\app\Controllers\Dashboard.php(310): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#4 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-03 01:22:44 --> Return value of App\Validation\MyRules::Nomi() must be of the type boolean, array returned
+#0 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->Nomi('', 'bayar', Array, NULL)
+#1 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', '', Array, Array)
+#2 D:\laragon\www\app\app\Controllers\Dashboard.php(306): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#4 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-03 01:51:43 --> Undefined property: App\Validation\MyRules::$session
+#0 D:\laragon\www\app\app\Validation\MyRules.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 10, Array)
+#1 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', 'bi', Array, NULL)
+#2 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', '', Array, Array)
+#3 D:\laragon\www\app\app\Controllers\Dashboard.php(306): CodeIgniter\Validation\Validation->run()
+#4 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#5 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-03 01:51:45 --> Undefined property: App\Validation\MyRules::$session
+#0 D:\laragon\www\app\app\Validation\MyRules.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 10, Array)
+#1 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', 'bi', Array, NULL)
+#2 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', '', Array, Array)
+#3 D:\laragon\www\app\app\Controllers\Dashboard.php(306): CodeIgniter\Validation\Validation->run()
+#4 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#5 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-03 02:00:39 --> Undefined property: App\Validation\MyRules::$request
+#0 D:\laragon\www\app\app\Validation\MyRules.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 9, Array)
+#1 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('fafa', NULL)
+#2 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', 'fafa', Array, Array)
+#3 D:\laragon\www\app\app\Controllers\Dashboard.php(305): CodeIgniter\Validation\Validation->run()
+#4 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#5 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-03 02:05:10 --> Too few arguments to function App\Validation\MyRules::__construct(), 0 passed in D:\laragon\www\app\system\Validation\Validation.php on line 561 and exactly 1 expected
+#0 D:\laragon\www\app\system\Validation\Validation.php(561): App\Validation\MyRules->__construct()
+#1 D:\laragon\www\app\system\Validation\Validation.php(147): CodeIgniter\Validation\Validation->loadRuleSets()
+#2 D:\laragon\www\app\app\Controllers\Dashboard.php(305): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#4 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-03 02:12:52 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\laragon\\www\\...', 33, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(33): count(10929)
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', '', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(305): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-03 02:12:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\laragon\\www\\...', 33, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(33): count(10929)
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('fafa', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', 'fafa', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(305): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-03 02:14:52 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\laragon\\www\\...', 33, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(33): count('10000')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('fafa', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', 'fafa', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(305): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-03 02:30:02 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\laragon\www\app\app\Controllers\Dashboard.php on line 1245
+#0 D:\laragon\www\app\app\Controllers\Dashboard.php(1245): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->print('IN3726981')
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-03 02:45:09 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\laragon\\www\\...', 128, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(128): count('{"from":"2020-0...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 02:45:38 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(129): count(Object(stdClass))
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 02:46:29 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\laragon\\www\\...', 130, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(130): count(Object(stdClass))
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 02:48:17 --> Call to undefined method stdClass::count()
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-03 02:49:26 --> Call to undefined method stdClass::count()
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-03 02:51:12 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\laragon\\www\\...', 130, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(130): count(Object(stdClass), 1)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 02:52:58 --> Call to undefined method stdClass::count()
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-03 02:56:53 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\laragon\\www\\...', 130, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(130): count(Object(stdClass), 1)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 02:57:17 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\laragon\\www\\...', 130, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(130): count(Object(stdClass))
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 03:12:17 --> Trying to get property 'update_at' of non-object
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 234, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(117): mutasi(10928)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 03:13:51 --> Undefined property: stdClass::$update_at
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(235): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 235, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(117): mutasi(10928)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 03:18:28 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'D:\\laragon\\www\\...', 237, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(237): date_format('2020-09-01 16:1...', 'm')
+#2 D:\laragon\www\app\app\Controllers\Home.php(117): mutasi(10928)
+#3 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#4 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-03 03:28:08 --> Undefined offset: 0
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 234, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(356): mutasi(11929, '2020-09-01 20:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 03:28:08 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-03 03:28:20 --> Undefined offset: 0
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 234, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(356): mutasi(11929, '2020-09-01 20:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 03:28:20 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-03 03:29:03 --> Undefined offset: 0
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 234, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(356): mutasi(11929, '2020-09-01 20:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 03:29:03 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-03 03:30:00 --> Undefined offset: 0
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 234, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(356): mutasi(11929, '2020-09-01 20:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 03:30:00 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-03 03:30:51 --> Undefined offset: 0
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 234, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(356): mutasi(11929, '2020-09-01 20:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 03:40:25 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in D:\laragon\www\app\app\Controllers\Dashboard.php on line 1245
+#0 D:\laragon\www\app\app\Controllers\Dashboard.php(1245): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->print('IN3726981')
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-03 04:24:06 --> Undefined property: App\Controllers\Dashboard::$sesssion
+#0 D:\laragon\www\app\app\Controllers\Dashboard.php(1007): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 1007, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_kat()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-03 04:24:11 --> Undefined property: App\Controllers\Dashboard::$sesssion
+#0 D:\laragon\www\app\app\Controllers\Dashboard.php(1007): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 1007, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_kat()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-03 05:03:13 --> Trying to get property 'kategori_id' of non-object
+#0 D:\laragon\www\app\app\Views\layanan\wizard.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 99, Array)
+#1 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\app\system\View\View.php(525): CodeIgniter\View\View->render('layanan/wizard', NULL, true)
+#3 D:\laragon\www\app\app\Views\template\layer.php(5): CodeIgniter\View\View->include('layanan/wizard')
+#4 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\app\system\Common.php(1087): CodeIgniter\View\View->render('template/layer', Array, true)
+#6 D:\laragon\www\app\app\Controllers\Dashboard.php(590): view('template/layer', Array)
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->reg_client()
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-03 06:35:05 --> Column 'kategori_tipe' cannot be null
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(1109): App\Models\Mdata->safe(Array, 'tb_kategori')
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_notif()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-03 06:35:13 --> Column 'kategori_tipe' cannot be null
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `tb...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(1109): App\Models\Mdata->safe(Array, 'tb_kategori')
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_notif()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-03 06:40:41 --> Undefined property: stdClass::$msg
+#0 D:\laragon\www\app\app\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 44, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->nof()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-03 06:42:31 --> Undefined property: stdClass::$msg
+#0 D:\laragon\www\app\app\Controllers\Home.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 44, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->nof()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-03 16:18:08 --> Trying to get property 'mutation' of non-object
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 244, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(360): mutasi(10928, '2020-09-01 15:4...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 16:18:08 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-03 16:18:16 --> Trying to get property 'mutation' of non-object
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 244, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(360): mutasi(10928, '2020-09-01 15:4...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 16:18:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-03 16:18:26 --> Trying to get property 'mutation' of non-object
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 244, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(360): mutasi(10928, '2020-09-01 15:4...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-03 16:18:26 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-03 16:18:51 --> Trying to get property 'mutation' of non-object
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 244, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(360): mutasi(10928, '2020-09-01 15:4...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

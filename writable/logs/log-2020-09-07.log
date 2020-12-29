@@ -1,0 +1,637 @@
+CRITICAL - 2020-09-07 01:13:28 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Dashboard.php(347): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:13:35 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Dashboard.php(347): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:13:43 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Dashboard.php(347): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:13:54 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Dashboard.php(347): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:14:35 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Dashboard.php(347): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:15:09 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Dashboard.php(347): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:17:48 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Home.php(251): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->tes()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:20:21 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Home.php(251): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->tes()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:20:23 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Home.php(251): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->tes()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:20:23 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Home.php(251): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->tes()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:20:43 --> Undefined variable: temp
+#0 D:\laragon\www\app\app\Config\Pariable.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 37, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(251): Config\Pariable->par()
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->tes()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-07 01:20:51 --> Undefined index: tempo
+#0 D:\laragon\www\app\app\Controllers\Home.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\laragon\\www\\...', 254, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->tes()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:22:14 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Home.php(251): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->tes()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:23:20 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Home.php(251): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->tes()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 01:23:21 --> Cannot use object of type CodeIgniter\I18n\Time as array
+#0 D:\laragon\www\app\app\Controllers\Home.php(251): Config\Pariable->par()
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->tes()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 02:07:30 --> Undefined variable: ser
+#0 D:\laragon\www\app\app\Controllers\Dashboard.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 64, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 02:17:03 --> Undefined variable: upaid
+#0 D:\laragon\www\app\app\Views\content.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 12, Array)
+#1 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\app\system\View\View.php(525): CodeIgniter\View\View->render('content', NULL, true)
+#3 D:\laragon\www\app\app\Views\template\layer.php(5): CodeIgniter\View\View->include('content')
+#4 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\app\system\Common.php(1087): CodeIgniter\View\View->render('template/layer', Array, true)
+#6 D:\laragon\www\app\app\Controllers\Dashboard.php(62): view('template/layer', Array)
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-07 02:29:17 --> Undefined variable: v
+#0 D:\laragon\www\app\app\Views\content.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 1, Array)
+#1 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\app\system\View\View.php(525): CodeIgniter\View\View->render('content', NULL, true)
+#3 D:\laragon\www\app\app\Views\template\layer.php(5): CodeIgniter\View\View->include('content')
+#4 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\app\system\Common.php(1087): CodeIgniter\View\View->render('template/layer', Array, true)
+#6 D:\laragon\www\app\app\Controllers\Dashboard.php(72): view('template/layer', Array)
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-07 02:30:10 --> You must set the database table to be used with your query.
+#0 D:\laragon\www\app\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\laragon\www\app\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\laragon\www\app\app\Controllers\Dashboard.php(55): CodeIgniter\Model->__call('join_all', Array)
+#3 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#4 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-07 02:30:15 --> You must set the database table to be used with your query.
+#0 D:\laragon\www\app\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\laragon\www\app\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 D:\laragon\www\app\app\Controllers\Dashboard.php(55): CodeIgniter\Model->__call('join_all', Array)
+#3 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#4 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-07 02:50:13 --> Undefined property: stdClass::$services_id
+#0 D:\laragon\www\app\app\Views\content.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 108, Array)
+#1 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\app\system\View\View.php(525): CodeIgniter\View\View->render('content', NULL, true)
+#3 D:\laragon\www\app\app\Views\template\layer.php(5): CodeIgniter\View\View->include('content')
+#4 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\app\system\Common.php(1087): CodeIgniter\View\View->render('template/layer', Array, true)
+#6 D:\laragon\www\app\app\Controllers\Dashboard.php(69): view('template/layer', Array)
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-07 03:25:21 --> Undefined offset: 3
+#0 D:\laragon\www\app\app\Models\Mdata.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(129): App\Models\Mdata->join_sum(Array, Array, Array, Array)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-07 03:27:06 --> Undefined offset: 3
+#0 D:\laragon\www\app\app\Models\Mdata.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(129): App\Models\Mdata->join_sum(Array, Array, Array, Array)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-07 03:27:07 --> Undefined offset: 3
+#0 D:\laragon\www\app\app\Models\Mdata.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 40, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(129): App\Models\Mdata->join_sum(Array, Array, Array, Array)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-07 03:27:52 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:29:34 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:29:35 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:29:35 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:29:35 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:30:15 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:30:15 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:31:19 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:31:21 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:31:21 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:31:22 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:31:22 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:31:22 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:31:22 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:04 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:19 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:37 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:48 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:49 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:49 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:50 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:50 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:50 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:51 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:51 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:51 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:32:52 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:33:56 --> Trying to get property 'service_price' of non-object
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:33:57 --> Trying to get property 'service_price' of non-object
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:36:03 --> Trying to get property 'service_price' of non-object
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:36:24 --> Trying to get property 'service_price' of non-object
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:39:58 --> Trying to get property 'service_price' of non-object
+#0 D:\laragon\www\app\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 129, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 03:49:08 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'D:\\laragon\\www\\...', 124, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(124): json_decode(Array)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->jum()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-07 04:17:51 --> Undefined variable: d
+#0 D:\laragon\www\app\app\Views\template\base.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 109, Array)
+#1 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\app\system\View\View.php(257): CodeIgniter\View\View->render('template/base', Array, true)
+#3 D:\laragon\www\app\system\Common.php(1087): CodeIgniter\View\View->render('template/layer', Array, true)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(69): view('template/layer', Array)
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->index()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-07 09:05:14 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(638): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(607): App\Controllers\Admin->_bank()
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('bank')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-07 09:05:21 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(733): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(613): App\Controllers\Admin->_api()
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('api')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-07 09:07:20 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(733): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(613): App\Controllers\Admin->_api()
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('api')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-07 09:07:23 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(733): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(613): App\Controllers\Admin->_api()
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('api')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-07 09:07:23 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(733): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(613): App\Controllers\Admin->_api()
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('api')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-07 09:07:49 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(733): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(613): App\Controllers\Admin->_api()
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('api')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-07 10:43:12 --> No connection could be made because the target machine actively refused it.
+
+#0 D:\laragon\www\app\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *, SUM(`...', Array, false)
+#3 D:\laragon\www\app\app\Models\Mdata.php(42): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\app\app\Helpers\libdata_helper.php(29): App\Models\Mdata->join_sum(Array, Array, Array, Array)
+#5 D:\laragon\www\app\app\Views\template\base.php(12): jum(1, 0)
+#6 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#7 D:\laragon\www\app\system\View\View.php(257): CodeIgniter\View\View->render('template/base', Array, true)
+#8 D:\laragon\www\app\system\Common.php(1087): CodeIgniter\View\View->render('template/layer', Array, true)
+#9 D:\laragon\www\app\app\Controllers\Home.php(23): view('template/layer', Array)
+#10 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->index()
+#11 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-09-07 10:43:12 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\laragon\www\app\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\laragon\\www\\...', 100, Array)
+#1 D:\laragon\www\app\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Home), true)
+#2 D:\laragon\www\app\system\Debug\Exceptions.php(299): include('D:\\laragon\\www\\...')
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-07 18:15:25 --> Undefined variable: d
+#0 D:\laragon\www\app\app\Views\setting\anggaran.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 12, Array)
+#1 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\app\system\View\View.php(525): CodeIgniter\View\View->render('setting/anggara...', NULL, true)
+#3 D:\laragon\www\app\app\Views\template\layer.php(5): CodeIgniter\View\View->include('setting/anggara...')
+#4 D:\laragon\www\app\system\View\View.php(246): include('D:\\laragon\\www\\...')
+#5 D:\laragon\www\app\system\Common.php(1087): CodeIgniter\View\View->render('template/layer', Array, true)
+#6 D:\laragon\www\app\app\Controllers\Dashboard.php(1165): view('template/layer', Array)
+#7 D:\laragon\www\app\app\Controllers\Dashboard.php(1146): App\Controllers\Dashboard->_anggaran()
+#8 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->biaya('anggaran')
+#9 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-09-07 18:20:10 --> Table 'invoice.tb_data' doesn't exist
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(190): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Api.php(48): App\Models\Mdata->join(Array, Array, Array)
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->index()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-07 18:20:32 --> Table 'invoice.tb_user' doesn't exist
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(2004): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(64): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\laragon\www\app\app\Controllers\Api.php(408): App\Models\Mdata->cc(Array, 'tb_user')
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-07 18:21:46 --> Undefined property: stdClass::$user_pass
+#0 D:\laragon\www\app\app\Controllers\Api.php(412): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 412, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 18:55:35 --> Undefined property: stdClass::$user_name
+#0 D:\laragon\www\app\app\Controllers\Api.php(437): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 437, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->login()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 19:09:46 --> Undefined property: App\Controllers\Api::$session
+#0 D:\laragon\www\app\app\Controllers\Api.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 238, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 19:10:41 --> Undefined property: App\Controllers\Api::$mdata
+#0 D:\laragon\www\app\app\Controllers\Api.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 247, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 19:24:17 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 66, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 19:29:25 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 66, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 19:29:28 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 66, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-07 19:29:29 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 66, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

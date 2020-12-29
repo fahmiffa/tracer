@@ -1,0 +1,56 @@
+CRITICAL - 2020-09-10 00:23:34 --> Call to undefined function App\Controllers\strlval()
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-10 00:24:20 --> Call to undefined function App\Controllers\format_rp()
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-10 00:24:24 --> Call to undefined function App\Controllers\format_rp()
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-10 00:24:37 --> Call to undefined function App\Controllers\format_rp()
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-10 00:24:51 --> Call to undefined function App\Controllers\format_rp()
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-10 00:25:50 --> Call to undefined function App\Controllers\format_rp()
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-10 00:25:52 --> Call to undefined function App\Controllers\format_rp()
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-10 01:10:32 --> Undefined variable: response
+#0 D:\laragon\www\app\app\Controllers\Api.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 219, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->dat()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-10 01:10:33 --> Undefined variable: response
+#0 D:\laragon\www\app\app\Controllers\Api.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 219, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->dat()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

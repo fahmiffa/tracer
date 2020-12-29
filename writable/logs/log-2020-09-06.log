@@ -1,0 +1,1012 @@
+CRITICAL - 2020-09-06 00:18:35 --> Array to string conversion
+#0 D:\laragon\www\app\app\Controllers\Home.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 139, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->cron()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 00:19:59 --> Undefined property: stdClass::$bank_name
+#0 D:\laragon\www\app\app\Config\Pariable.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 14, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(139): Config\Pariable->par()
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->cron()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:20:19 --> Array to string conversion
+#0 D:\laragon\www\app\app\Controllers\Home.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 139, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->cron()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 00:20:30 --> Array to string conversion
+#0 D:\laragon\www\app\app\Controllers\Home.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 139, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->cron()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 00:20:51 --> Trying to get property 'bank' of non-object
+#0 D:\laragon\www\app\app\Controllers\Home.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\laragon\\www\\...', 139, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->cron()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 00:22:48 --> Array to string conversion
+#0 D:\laragon\www\app\app\Controllers\Home.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 140, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->cron()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 00:30:21 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 254, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:30:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-06 00:31:37 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 254, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:31:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-06 00:31:46 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 254, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:31:46 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-06 00:31:58 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 254, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:34:08 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Controllers\Home.php(279): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 279, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 00:37:56 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 254, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:37:56 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-06 00:38:01 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 254, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:38:05 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 254, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:39:01 --> Array to string conversion
+#0 D:\laragon\www\app\app\Controllers\Home.php(279): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 279, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 00:40:20 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 254, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:41:25 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 254, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:42:20 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(257): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 257, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:42:23 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(257): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 257, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:42:29 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(257): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 257, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:42:29 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-06 00:43:44 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 255, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:45:01 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 255, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:45:48 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 254, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:47:20 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\laragon\\www\\...', 281, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(281): count(Object(stdClass))
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:47:51 --> Undefined variable: n
+#0 D:\laragon\www\app\app\Controllers\Home.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\laragon\\www\\...', 281, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->mutasi()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 00:48:57 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 255, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:48:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Gagal menguraikan string json, kesalahan: "Type is not supported". in D:\laragon\www\app\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\laragon\www\app\system\Format\JSONFormatter.php(67): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 D:\laragon\www\app\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\laragon\www\app\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\laragon\www\app\system\Debug\Exceptions.php(166): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-09-06 00:49:02 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 255, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:49:51 --> Undefined property: stdClass::$mutation
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 255, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 00:50:01 --> Object of class stdClass could not be converted to string
+#0 D:\laragon\www\app\app\Helpers\libdata_helper.php(257): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\laragon\\www\\...', 257, Array)
+#1 D:\laragon\www\app\app\Controllers\Dashboard.php(372): mutasi(11397, '2020-09-06 00:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->data_bayar()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 01:01:29 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(821): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(604): App\Controllers\Admin->_enotif('W317526')
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('enotif', 'W317526')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-06 01:02:13 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(2004): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(64): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\laragon\www\app\app\Controllers\Admin.php(887): App\Models\Mdata->cc(Array, 'tb_wa')
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->act_notif()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 01:02:19 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(2004): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(64): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\laragon\www\app\app\Controllers\Admin.php(887): App\Models\Mdata->cc(Array, 'tb_wa')
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->act_notif()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 01:02:30 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(2004): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(64): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\laragon\www\app\app\Controllers\Admin.php(887): App\Models\Mdata->cc(Array, 'tb_wa')
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->act_notif()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 01:02:59 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(832): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(600): App\Controllers\Admin->_notifi()
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('notif')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-06 01:03:31 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(832): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(600): App\Controllers\Admin->_notifi()
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('notif')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-06 01:03:33 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(832): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(600): App\Controllers\Admin->_notifi()
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('notif')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-06 01:03:33 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(832): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(600): App\Controllers\Admin->_notifi()
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('notif')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-06 01:03:43 --> Unknown column 'wa_sales' in 'where clause'
+#0 D:\laragon\www\app\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\laragon\www\app\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\laragon\www\app\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\laragon\www\app\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\app\app\Models\Mdata.php(114): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\app\app\Controllers\Admin.php(832): App\Models\Mdata->cv(Array, 'tb_wa')
+#6 D:\laragon\www\app\app\Controllers\Admin.php(600): App\Controllers\Admin->_notifi()
+#7 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Admin->setting('notif')
+#8 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-09-06 01:18:02 --> Undefined property: stdClass::$temp
+#0 D:\laragon\www\app\app\Config\Pariable.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\laragon\\www\\...', 14, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(257): Config\Pariable->par()
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 01:41:26 --> Invalid numeric literal
+#0 D:\laragon\www\app\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('home/send')
+#1 D:\laragon\www\app\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('home/send')
+#2 D:\laragon\www\app\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 01:42:31 --> Invalid numeric literal
+#0 D:\laragon\www\app\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('home/send')
+#1 D:\laragon\www\app\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('home/send')
+#2 D:\laragon\www\app\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 01:51:47 --> syntax error, unexpected 'create' (T_STRING), expecting variable (T_VARIABLE) or '$'
+#0 D:\laragon\www\app\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('home/send')
+#1 D:\laragon\www\app\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('home/send')
+#2 D:\laragon\www\app\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 02:05:37 --> date_format() expects parameter 1 to be DateTimeInterface, boolean given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'D:\\laragon\\www\\...', 265, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(265): date_format(false, 'Y/m/d')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 02:06:04 --> date_format() expects parameter 1 to be DateTimeInterface, boolean given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'D:\\laragon\\www\\...', 265, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(265): date_format(false, 'Y/m/d')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 02:07:48 --> date_date_set() expects exactly 4 parameters, 7 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_date_set()...', 'D:\\laragon\\www\\...', 265, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(265): date_date_set(Object(DateTime), 2020, 10, 30, 8, 0, 0)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 02:08:16 --> date_time_set() expects at most 5 parameters, 7 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_time_set()...', 'D:\\laragon\\www\\...', 265, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(265): date_time_set(Object(DateTime), 2020, 10, 30, 8, 0, 0)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 02:08:18 --> date_time_set() expects at most 5 parameters, 7 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_time_set()...', 'D:\\laragon\\www\\...', 265, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(265): date_time_set(Object(DateTime), 2020, 10, 30, 8, 0, 0)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 02:15:32 --> date_time_set() expects parameter 1 to be DateTime, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_time_set()...', 'D:\\laragon\\www\\...', 266, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(266): date_time_set('2020-09-18', 13, 24)
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 02:19:16 --> Class 'App\Controllers\DateTime' not found
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-06 02:20:08 --> Call to a member function setTime() on string
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-06 02:20:57 --> Class 'App\Controllers\DateTime' not found
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-06 02:26:37 --> Call to a member function equals() on string
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-06 02:27:44 --> Call to a member function equals() on string
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-06 02:27:45 --> Call to a member function equals() on string
+#0 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#1 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-09-06 05:37:23 --> date_diff() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'D:\\laragon\\www\\...', 326, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(326): date_diff('2020-09-06 05:2...', '2020-09-06 05:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 05:37:24 --> date_diff() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'D:\\laragon\\www\\...', 326, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(326): date_diff('2020-09-06 05:2...', '2020-09-06 05:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 05:37:25 --> date_diff() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'D:\\laragon\\www\\...', 326, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(326): date_diff('2020-09-06 05:2...', '2020-09-06 05:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 05:37:26 --> date_diff() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'D:\\laragon\\www\\...', 326, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(326): date_diff('2020-09-06 05:2...', '2020-09-06 05:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 05:37:27 --> date_diff() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'D:\\laragon\\www\\...', 326, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(326): date_diff('2020-09-06 05:2...', '2020-09-06 05:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 05:37:28 --> date_diff() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'D:\\laragon\\www\\...', 326, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(326): date_diff('2020-09-06 05:2...', '2020-09-06 05:3...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 05:48:34 --> A non-numeric value encountered
+#0 D:\laragon\www\app\app\Controllers\Home.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\laragon\\www\\...', 329, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 05:48:35 --> A non-numeric value encountered
+#0 D:\laragon\www\app\app\Controllers\Home.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\laragon\\www\\...', 329, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 05:48:36 --> A non-numeric value encountered
+#0 D:\laragon\www\app\app\Controllers\Home.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\laragon\\www\\...', 329, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 05:48:37 --> A non-numeric value encountered
+#0 D:\laragon\www\app\app\Controllers\Home.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\laragon\\www\\...', 329, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 05:48:38 --> A non-numeric value encountered
+#0 D:\laragon\www\app\app\Controllers\Home.php(329): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\laragon\\www\\...', 329, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 11:13:10 --> syntax error, unexpected '!=' (T_IS_NOT_EQUAL)
+#0 D:\laragon\www\app\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('home/send')
+#1 D:\laragon\www\app\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('home/send')
+#2 D:\laragon\www\app\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-06 13:10:52 --> time_sleep_until(): Sleep until to time is less than current time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'time_sleep_unti...', 'D:\\laragon\\www\\...', 295, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(295): time_sleep_until('2020-09-06 13:1...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 13:10:53 --> time_sleep_until(): Sleep until to time is less than current time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'time_sleep_unti...', 'D:\\laragon\\www\\...', 295, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(295): time_sleep_until('2020-09-06 13:1...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 13:10:54 --> time_sleep_until(): Sleep until to time is less than current time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'time_sleep_unti...', 'D:\\laragon\\www\\...', 295, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(295): time_sleep_until('2020-09-06 13:1...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 13:10:55 --> time_sleep_until(): Sleep until to time is less than current time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'time_sleep_unti...', 'D:\\laragon\\www\\...', 295, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(295): time_sleep_until('2020-09-06 13:1...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 13:10:56 --> time_sleep_until(): Sleep until to time is less than current time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'time_sleep_unti...', 'D:\\laragon\\www\\...', 295, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(295): time_sleep_until('2020-09-06 13:1...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 13:10:57 --> time_sleep_until(): Sleep until to time is less than current time
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'time_sleep_unti...', 'D:\\laragon\\www\\...', 295, Array)
+#1 D:\laragon\www\app\app\Controllers\Home.php(295): time_sleep_until('2020-09-06 13:1...')
+#2 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Home->send()
+#3 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-06 15:34:00 --> syntax error, unexpected '');' (T_ENCAPSED_AND_WHITESPACE), expecting ',' or ')'
+#0 D:\laragon\www\app\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#1 D:\laragon\www\app\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\laragon\www\app\app\Controllers\Home.php(8): spl_autoload_call('App\\Controllers...')
+#4 D:\laragon\www\app\system\Autoloader\Autoloader.php(365): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\app\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\laragon\\www\\...')
+#6 D:\laragon\www\app\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#8 [internal function]: spl_autoload_call('App\\Controllers...')
+#9 D:\laragon\www\app\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#10 D:\laragon\www\app\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#11 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-09-06 22:43:58 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:43:59 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:43:59 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:44:12 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:44:27 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:45:45 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:45:57 --> Argument 1 passed to App\Validation\MyRules::nom() must be of the type string, null given, called in D:\laragon\www\app\system\Validation\Validation.php on line 294
+#0 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom(NULL, NULL)
+#1 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', NULL, Array, Array)
+#2 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#4 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-06 22:46:07 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:46:50 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:47:02 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:47:11 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('Rp 90.000', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('Rp 90.000')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('Rp 90.000', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', 'Rp 90.000', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:47:54 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:52:05 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:56:05 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('Rp 11.930', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('Rp 11.930')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('Rp 11.930', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', 'Rp 11.930', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:56:19 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 157, Array)
+#1 D:\laragon\www\app\app\Helpers\libdata_helper.php(157): number_format('Rp 11.938', 0, ',', '.')
+#2 D:\laragon\www\app\app\Validation\MyRules.php(24): format_rp('Rp 11.938')
+#3 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('Rp 11.938', NULL)
+#4 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', 'Rp 11.938', Array, Array)
+#5 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#6 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#7 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-09-06 22:56:59 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(24): number_format('Rp 11.938', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('Rp 11.938', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', 'Rp 11.938', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 22:57:18 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(24): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 22:57:23 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(24): number_format('Rp 90.000', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('Rp 90.000', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', 'Rp 90.000', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 22:57:24 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(24): number_format('Rp 90.000', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('Rp 90.000', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', 'Rp 90.000', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 22:57:28 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(24): number_format('Rp 90.000', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('Rp 90.000', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', 'Rp 90.000', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 22:57:43 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(24): number_format('Rp 90.000', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('Rp 90.000', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', 'Rp 90.000', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 22:57:44 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(24): number_format('Rp 90.000', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('Rp 90.000', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', 'Rp 90.000', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 22:59:41 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(24): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 23:00:12 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 24, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(24): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 23:10:48 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 35, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(35): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 23:10:49 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 35, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(35): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 23:10:51 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 35, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(35): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 23:11:17 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 35, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(35): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 23:11:18 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 35, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(35): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-06 23:11:21 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'D:\\laragon\\www\\...', 35, Array)
+#1 D:\laragon\www\app\app\Validation\MyRules.php(35): number_format('', 0, ',', '.')
+#2 D:\laragon\www\app\system\Validation\Validation.php(294): App\Validation\MyRules->nom('', NULL)
+#3 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('price', 'Nominal', '', Array, Array)
+#4 D:\laragon\www\app\app\Controllers\Dashboard.php(324): CodeIgniter\Validation\Validation->run()
+#5 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#6 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

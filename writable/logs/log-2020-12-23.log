@@ -1,0 +1,28 @@
+CRITICAL - 2020-12-23 05:44:58 --> No connection could be made because the target machine actively refused it.
+
+#0 D:\laragon\www\bkk\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\bkk\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\bkk\system\Database\BaseBuilder.php(2004): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\bkk\app\Models\Mdata.php(81): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#4 D:\laragon\www\bkk\app\Controllers\BaseController.php(76): App\Models\Mdata->cc(Array, 'tb_account')
+#5 D:\laragon\www\bkk\app\Controllers\Home.php(16): App\Controllers\BaseController->_log_front()
+#6 D:\laragon\www\bkk\system\CodeIgniter.php(886): App\Controllers\Home->__construct()
+#7 D:\laragon\www\bkk\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#8 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\bkk\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2020-12-23 05:45:10 --> No connection could be made because the target machine actively refused it.
+
+#0 D:\laragon\www\bkk\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\bkk\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\bkk\system\Database\BaseBuilder.php(2004): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\bkk\app\Models\Mdata.php(81): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#4 D:\laragon\www\bkk\app\Controllers\BaseController.php(76): App\Models\Mdata->cc(Array, 'tb_account')
+#5 D:\laragon\www\bkk\app\Controllers\Home.php(16): App\Controllers\BaseController->_log_front()
+#6 D:\laragon\www\bkk\system\CodeIgniter.php(886): App\Controllers\Home->__construct()
+#7 D:\laragon\www\bkk\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#8 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\bkk\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#11 {main}

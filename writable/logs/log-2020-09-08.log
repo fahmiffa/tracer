@@ -1,0 +1,168 @@
+CRITICAL - 2020-09-08 09:47:50 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 09:48:15 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 09:49:06 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 09:49:32 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 09:57:30 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 10:03:41 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 10:04:15 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 10:09:44 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 10:09:58 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 10:10:55 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 10:29:00 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 10:29:27 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 11:55:45 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 11:57:25 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 11:58:15 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 11:58:40 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 11:58:53 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 11:59:16 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 11:59:44 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 12:00:01 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 12:00:06 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 68, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 12:03:28 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 69, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 12:05:00 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 69, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-08 12:14:24 --> Undefined offset: 1
+#0 D:\laragon\www\app\app\Controllers\Api.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 69, Array)
+#1 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Api->data()
+#2 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

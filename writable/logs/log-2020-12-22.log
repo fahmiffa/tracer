@@ -1,0 +1,18 @@
+CRITICAL - 2020-12-22 19:17:20 --> Undefined offset: 1
+#0 D:\laragon\www\bkk\app\Helpers\libdata_helper.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 109, Array)
+#1 D:\laragon\www\bkk\app\Controllers\Home.php(633): trans_date('1992-06-11')
+#2 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->act()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\laragon\www\bkk\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#7 {main}
+CRITICAL - 2020-12-22 19:17:23 --> Undefined offset: 1
+#0 D:\laragon\www\bkk\app\Helpers\libdata_helper.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\laragon\\www\\...', 109, Array)
+#1 D:\laragon\www\bkk\app\Controllers\Home.php(633): trans_date('1992-06-11')
+#2 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->act()
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\laragon\www\bkk\system\Commands\Server\rewrite.php(34): require_once('D:\\laragon\\www\\...')
+#7 {main}

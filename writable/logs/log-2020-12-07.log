@@ -1,0 +1,14 @@
+CRITICAL - 2020-12-07 19:47:12 --> Array to string conversion
+#0 D:\laragon\www\bkk\app\Controllers\Home.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 232, Array)
+#1 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#2 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:52:56 --> Array to string conversion
+#0 D:\laragon\www\bkk\app\Controllers\Home.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\laragon\\www\\...', 232, Array)
+#1 D:\laragon\www\bkk\system\CodeIgniter.php(914): App\Controllers\Home->reg()
+#2 D:\laragon\www\bkk\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\laragon\www\bkk\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\laragon\www\bkk\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

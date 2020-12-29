@@ -1,0 +1,26 @@
+CRITICAL - 2020-09-02 01:14:51 --> Undefined property: App\Controllers\Home::$uri
+#0 D:\project\app\app\Controllers\Home.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\project\\app\\...', 117, Array)
+#1 D:\project\app\system\CodeIgniter.php(914): App\Controllers\Home->cron('ada')
+#2 D:\project\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\project\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\project\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\project\app\system\Commands\Server\rewrite.php(34): require_once('D:\\project\\app\\...')
+#6 {main}
+CRITICAL - 2020-09-02 18:24:48 --> even bukan sebuah aturan yang valid.
+#0 D:\laragon\www\app\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('even')
+#1 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', '', Array, Array)
+#2 D:\laragon\www\app\app\Controllers\Dashboard.php(314): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#4 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-02 18:24:48 --> even bukan sebuah aturan yang valid.
+#0 D:\laragon\www\app\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('even')
+#1 D:\laragon\www\app\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('bayar', 'Nominal', '', Array, Array)
+#2 D:\laragon\www\app\app\Controllers\Dashboard.php(314): CodeIgniter\Validation\Validation->run()
+#3 D:\laragon\www\app\system\CodeIgniter.php(914): App\Controllers\Dashboard->act_bayar()
+#4 D:\laragon\www\app\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\laragon\www\app\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\laragon\www\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
